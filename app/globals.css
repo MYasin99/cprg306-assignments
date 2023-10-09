@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.outline-text {
+  text-shadow: 
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.placeholder-produce::placeholder { color: lightcoral; }
+.placeholder-dairy::placeholder { color: lightblue; }
+.placeholder-bakery::placeholder { color: #9e4d4d; }
+.placeholder-meat::placeholder { color: lightpink; }
+.placeholder-frozenFoods::placeholder { color: lightsteelblue; }
+.placeholder-cannedGoods::placeholder { color: lightseagreen; }
+.placeholder-dryGoods::placeholder { color: rgb(78, 197, 197); }
+.placeholder-beverages::placeholder { color: lightgray; }
+.placeholder-snacks::placeholder { color: lightsalmon; }
+.placeholder-household::placeholder { color: lightgreen; }
+.placeholder-other::placeholder { color: lightgrey; }
