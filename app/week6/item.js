@@ -12,8 +12,7 @@ const colors = [
   'border-gray-500',
   'border-blue-300',
   'border-green-300',
-  'border-yellow-300',
-  // ... add more colors if needed
+  'border-yellow-305',
 ];
 
 // Function to shuffle an array
